@@ -24,7 +24,8 @@
             ".post-copyright",
             ".branding",
             ".rollbar",
-            ".article-meta"
+            ".article-meta",
+            ".footer"
         ]
     },
     "www.infoq.cn": {
