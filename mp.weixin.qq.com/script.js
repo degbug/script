@@ -19,7 +19,7 @@ for (i = 0; i < preL; i++) {
 
         $(pres[i]).html(text);
     } else {
-        var codes = $(pres[i]).html().replace(/<br>/g, '\n');
+        var codes = $(pres[i]).html().replace(/<br.*?>/g, '\n');
         $(pres[i]).html(codes)
     }
 
