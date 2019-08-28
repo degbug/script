@@ -1,0 +1,92 @@
+{
+    "www.jianshu.com": {
+        "reg": [
+            ".navbar",
+            ".author",
+            "#note-fixed-ad-container",
+            ".post>:not(.article)"
+        ]
+    },
+    "http://www.hollischuang.com": {
+        "reg": [
+            ".header",
+            ".site-search",
+            ".breadcrumbs",
+            ".sidebar",
+            ".relates",
+            ".title",
+            "#respond",
+            "#postcomments",
+            ".post-actions",
+            ".action-share",
+            ".article-tags",
+            ".article-nav",
+            ".post-copyright",
+            ".branding",
+            ".rollbar",
+            ".article-meta"
+        ]
+    },
+    "www.infoq.cn": {
+        "reg": [
+            ".comment-wrapper",
+            ".operation-btn-wrapper",
+            ".like-section",
+            ".com-topic-tag",
+            ".artcile-copyright",
+            ".article-advertising",
+            ".article-sidebar",
+            ".article-fixed-operation",
+            ".header"
+        ]
+    },
+    "blog.csdn.net": {
+        "reg": [
+            "aside",
+            ".csdn-toolbar",
+            ".csdn-side-toolbar",
+            ".meau-list",
+            ".comment-box",
+            ".recommend-box",
+            ".article-copyright",
+            ".article-info-box",
+            ".article-type"
+        ],
+        "script": "true"
+    },
+    "juejin.im": {
+        "reg": [
+            ".sidebar"
+        ]
+    },
+    "www.ixuexi.cf": {
+        "reg": [
+            ".thumbnail"
+        ]
+    },
+    "www.cnblogs.com": {
+        "reg": [
+            "#banner",
+            "#right",
+            "#mystats",
+            "#mylinks",
+            "#blog_post_info_block",
+            "#postDesc",
+            "#blog-comments-placeholder",
+            "#comment_form"
+        ]
+    },
+    "mp.weixin.qq.com": {
+        "reg": [
+            ".js_pc_qr_code",
+            "#js_pc_qr_code"
+        ],
+        "script": "true"
+    },
+    "time.geekbang.org": {
+        "reg": [
+            ".richcontent-pre-copy",
+            "._3-9A2Wmt_0"
+        ]
+    }
+}
