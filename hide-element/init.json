@@ -7,7 +7,7 @@
             ".post>:not(.article)"
         ]
     },
-    "http://www.hollischuang.com": {
+    "www.hollischuang.com": {
         "reg": [
             ".header",
             ".site-search",
