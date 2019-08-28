@@ -27,7 +27,8 @@ for (i = 0; i < preL; i++) {
     }
 
     if($($('pre')[i]).parent()[0]){
-        if ('SECTION' === $($('pre')[i]).parent()[0].tagName) {
+        var hasNotText = $($('pre')[i]).prev().text() === "" || $($('pre')[i]).prev().text() === null;
+        if ('SECTION' === $($('pre')[i]).parent()[0].tagName && hasNotText) {
             $(pres[i]).parent().removeClass();
             $(pres[i]).parent().children('ul').remove();
             $(pres[i]).parent().replaceWith($(pres[i]));
