@@ -4,7 +4,8 @@
             ".navbar",
             ".author",
             "#note-fixed-ad-container",
-            ".post>:not(.article)"
+            ".post>:not(.article)",
+            "header"
         ]
     },
     "www.ruanyifeng.com": {
