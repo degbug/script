@@ -7,6 +7,20 @@
             ".post>:not(.article)"
         ]
     },
+    "www.ruanyifeng.com": {
+        "reg": [
+            "#header",
+            ".asset-header",
+            ".asset-meta",
+            "#comments",
+            "#related_entries",
+            "#cre",
+            ".buzzButton",
+            ".asset-footer",
+            "#footer"
+        ],
+        "script": "true"
+    },
     "www.hollischuang.com": {
         "reg": [
             ".header",
