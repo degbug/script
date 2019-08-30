@@ -1,0 +1,1 @@
+$("section:contains(推荐阅读)").remove();
