@@ -5,8 +5,12 @@
             ".author",
             "#note-fixed-ad-container",
             ".post>:not(.article)",
-            "header"
-        ]
+            "header",
+            "aside",
+            "footer",
+            "#note-page-comment"
+        ],
+        "script": "true"
     },
     "www.ruanyifeng.com": {
         "reg": [
