@@ -28,7 +28,7 @@ for (i = 0; i < preL; i++) {
 
 
     var $blockquote = $('blockquote');
-    for(var k = 0;$blockquote.length;k++){
+    for(var k = 0;k<$blockquote.length;k++){
         var blockHtml = $($blockquote[k]).html();
         console.info(blockHtml);
         // $($blockquote[k]).replaceWith(blockHtml);
