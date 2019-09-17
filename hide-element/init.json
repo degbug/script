@@ -112,7 +112,11 @@
     "linux.vbird.org": {
         "reg": [
             ".toparea",
-            ".nav"
+            ".nav",
+            ".bottomarea",
+            ".gototop",
+            ".rightarea",
+            ".leftarea"
         ],
         "script": "true"
     }
