@@ -118,6 +118,7 @@
             ".rightarea",
             ".leftarea"
         ],
-        "script": "true"
+        "script": "true",
+        "t2s": "true"
     }
 }
